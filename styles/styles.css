@@ -14,7 +14,18 @@ table, td, th{
     border-collapse: collapse;
 }
 
-td, th{
+td, th:nth-child(even){
     padding: 10px;
     background-color: blue;
+    text-align: center;
+}
+
+td, th:nth-child(odd){
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
 }
